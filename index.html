@@ -1,260 +1,211 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🥇 CWG History - Complete Guide | Commonwealth Games Evolution</title>
-    <meta name="description" content="Complete Commonwealth Games history from 1930, records, India's 271 medals journey, all key milestones.">
+    <title>Sports Festivals 2026</title>
     <style>
-        * { box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6; margin: 0; padding: 20px; max-width: 1200px; margin: 0 auto;
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333;
+            line-height: 1.6;
+            margin: 40px;
+            max-width: 900px;
+            background: #f8f9fa;
+            color: #333;
         }
-        .header { 
-            text-align: center; background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1);
-            color: white; padding: 40px 30px; border-radius: 20px; margin-bottom: 40px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.3); position: relative; overflow: hidden;
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
-        .header::before { content: '🥇'; font-size: 4em; position: absolute; top: -20px; right: 20px; opacity: 0.1; }
-        .nav { text-align: center; margin: 30px 0; }
-        .nav a { 
-            background: linear-gradient(45deg, #4CAF50, #45a049); color: white; padding: 15px 30px; 
-            text-decoration: none; border-radius: 30px; margin: 0 15px; font-weight: bold;
-            display: inline-block; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(76,175,80,0.3);
+        .event {
+            background: white;
+            margin: 20px 0;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-left: 6px solid #4CAF50;
         }
-        .nav a:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(76,175,80,0.5); }
-        .section { 
-            background: white; margin: 30px 0; padding: 35px; border-radius: 20px; box-shadow: 0 10px 35px rgba(0,0,0,0.1);
-            border-left: 8px solid #ff9800; position: relative; transition: transform 0.3s ease;
+        .event h2 {
+            color: #2c3e50;
+            margin-top: 0;
+            font-size: 22px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
-        .section:hover { transform: translateY(-5px); }
-        .section.india { border-left-color: #2196F3; background: linear-gradient(135deg, #e3f2fd 0%, white 100%); }
-        .section.highlight { border-left-color: #ff5722 !important; background: linear-gradient(135deg, #fff3e0 0%, white 100%); }
-        .section h2 { color: #2c3e50; margin-top: 0; font-size: 28px; }
-        .question { 
-            font-size: 22px; font-weight: 700; color: #2c3e50; margin: 25px 0 15px; 
-            padding: 15px; background: linear-gradient(90deg, #667eea15, #764ba215); 
-            border-radius: 12px; border-left: 5px solid #667eea;
+        .host {
+            font-weight: bold;
+            color: #e74c3c;
+            font-size: 16px;
         }
-        .answer { 
-            background: #f8f9ff; padding: 25px; border-radius: 15px; margin: 15px 0; 
-            border-left: 6px solid #4CAF50; font-size: 16px; line-height: 1.7;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        .dates {
+            background: #e8f5e8;
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px 0;
+            font-weight: bold;
         }
-        .medal-gold { color: #ffd700; font-weight: bold; font-size: 18px; }
-        .medal-silver { color: #c0c0c0; font-weight: bold; }
-        .medal-bronze { color: #cd7f32; font-weight: bold; }
-        @media (max-width: 768px) { 
-            body { padding: 10px; } .section { padding: 20px; margin: 15px 0; } 
-            .question { font-size: 18px; } .header { padding: 30px 20px; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
         }
-        @media print { 
-            body { background: white; padding: 0; } .section { box-shadow: none; margin: 10px 0; }
-            .nav { display: none; } .header { margin-bottom: 20px; }
+        .stat-item {
+            background: #f1f8e9;
+            padding: 12px;
+            border-radius: 8px;
+            border-left: 4px solid #7cb342;
+        }
+        .india-highlight {
+            background: #fff3e0 !important;
+            border-left-color: #ff9800 !important;
+        }
+        @media print {
+            body { margin: 0; background: white; }
+            .event { box-shadow: none; border: 1px solid #ddd; margin: 10px 0; }
+            .header { box-shadow: none; }
+        }
+        @media (max-width: 768px) {
+            body { margin: 20px; font-size: 14px; }
+            .stats { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
 
 <div class="header">
-    <h1>🥇 COMMONWEALTH GAMES HISTORY</h1>
-    <p><strong>Complete Evolution • Records • India's 271 Medals Journey • Quiz Facts</strong></p>
-    <small>🏅 Organized by Commonwealth Games Federation | 📅 From 1930 Hamilton to 2026 Glasgow</small>
+    <h1>🎉 SPORTS FESTIVALS 2026 🎉</h1>
+    <p>Complete International Sports Calendar</p>
 </div>
 
-<div class="nav">
-    <a href="index.html">🏆 2026 SCHEDULE</a>
-    <a href="#india">🇮🇳 INDIA SECTION</a>
-    <a href="index.html">📱 SHARE</a>
+   <div class="nav" style="text-align: center; margin: 20px 0; padding: 15px 0;">
+    <a href="index.html" style="background: #4CAF50; color: white; padding: 12px 24px; text-decoration: none; border-radius: 25px; margin: 0 10px; font-weight: bold; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">🏆 2026 SCHEDULE</a>
+    <a href="cwg-history.html" style="background: #ff9800; color: white; padding: 12px 24px; text-decoration: none; border-radius: 25px; margin: 0 10px; font-weight: bold; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">📚 CWG OVERVIEW</a>
+    </div> 
+
+<div class="event">
+    <h2>🇿🇼 JANUARY: Youth World Cup</h2>
+    <div class="host">Hosts: Zimbabwe - Namibia</div>
 </div>
 
-<div class="section">
-    <h2>🎯 ORIGINS & FIRST GAMES (1930)</h2>
-    
-    <div class="question">What are the Commonwealth Games?</div>
-    <div class="answer">
-        ⭐ <strong>A grand sports festival</strong> of <strong>Commonwealth of Nations member countries</strong> and <strong>British Empire countries</strong>, governed by the <strong>Commonwealth Games Federation</strong>.
-    </div>
-
-    <div class="question">Who first proposed Commonwealth Games? (1891)</div>
-    <div class="answer">
-        <strong>Reverend Astley Cooper</strong> published the idea in <strong>"The Times"</strong> magazine.
-    </div>
-
-    <div class="question">First implementation attempt? (1911)</div>
-    <div class="answer">
-        During coronation celebrations of <strong>King George V</strong> (Samrat Pancham) in London.
-    </div>
-
-    <div class="question">Who organized first Games? (1928)</div>
-    <div class="answer">
-        Canada's <strong>Melville Marcus Robinson</strong> - named "<strong>British Empire Games</strong>".
-    </div>
-
-    <div class="question">First Games location & details?</div>
-    <div class="answer">
-        <strong>1930 - Hamilton, Canada</strong> (called "<strong>British Olympic Games</strong>")<br>
-        <strong>Stadium:</strong> <strong>Civic Stadium</strong> | <strong>Events:</strong> <strong>59 competitions</strong> | <strong>27 sports</strong>
-    </div>
-
-    <div class="question">Participating countries in 1930?</div>
-    <div class="answer">
-        <strong>11 countries</strong> | <strong>27 sports</strong><br>
-        ⭐ <strong>Note:</strong> Rowing & Diving held <strong>separately in different location</strong>.
-    </div>
-
-    <div class="question">1930 Medal Winners</div>
-    <div class="answer">
-        🥇 <span class="medal-gold">1st: England (25 Gold)</span><br>
-        🥈 <span class="medal-silver">2nd: Canada (22 Gold)</span><br>
-        🥉 <span class="medal-bronze">3rd: Australia</span><br>
-        <strong>Top Athlete:</strong> <strong>Joyce Cooper</strong> (England Swimming - <strong>4 Golds</strong>)
+<div class="event">
+    <h2>🇮🇹 FEBRUARY: 25th Winter Olympics</h2>
+    <div class="dates">📅 February 6 to 22, 2026 | Milan, Italy</div>
+    <div class="stats">
+        <div class="stat-item">8 Sports, 16 Disciplines, 116 Events</div>
+        <div class="stat-item">91 Countries/Organizations</div>
+        <div class="stat-item">🥇 Most Golds: Norway(148), USA(114), Germany(105)</div>
+        <div class="stat-item">First Winter Olympics: 1924</div>
     </div>
 </div>
 
-<div class="section">
-    <h2>🏆 ALL-TIME RECORDS</h2>
-    
-    <div class="question">Most 1st place wins?</div>
-    <div class="answer">
-        <strong>Australia: 11 times</strong>
-    </div>
-
-    <div class="question">Most 2nd place finishes?</div>
-    <div class="answer">
-        <strong>England: 11 times</strong>
-    </div>
-
-    <div class="question">Most 3rd place finishes?</div>
-    <div class="answer">
-        <strong>Canada: 7 times</strong>
-    </div>
-
-    <div class="question">Only country won title in Canada?</div>
-    <div class="answer">
-        <strong>New Zealand</strong> (once)
-    </div>
-
-    <div class="question">Total top-ranked countries?</div>
-    <div class="answer">
-        <strong>6 countries:</strong> <strong>Australia, England, Canada, New Zealand, Scotland, Wales</strong>
+<div class="event">
+    <h2>🏏 FEBRUARY: 10th T20 Cricket World Cup (Men's)</h2>
+    <div class="dates">📅 February 7 to March 8, 2026</div>
+    <div class="host">Hosts: India - Sri Lanka</div>
+    <div class="stats">
+        <div class="stat-item">20 Teams, 55 Matches, 4 Groups (A,B,C,D)</div>
+        <div class="stat-item">Group A: India, Pakistan, Namibia, Netherlands, USA</div>
+        <div class="stat-item">🏆 Current Champions: India (2024)</div>
+        <div class="stat-item">👑 Most Titles: India/England/West Indies (2 each)</div>
+        <div class="stat-item">🏃‍♂ Most Runs: Virat Kohli (1,292)</div>
+        <div class="stat-item">🎯 Most Wickets: Shakib Al Hasan (50)</div>
+        <div class="stat-item">First: 2007 (every 2 years)</div>
     </div>
 </div>
 
-<div class="section highlight" id="india">
-    <h2>🇮🇳 INDIA'S CWG JOURNEY (271 Medals)</h2>
-    
-    <div class="question">India's first participation?</div>
-    <div class="answer">
-        <strong>1934 London Games</strong>
-    </div>
-
-    <div class="question">India's first medal?</div>
-    <div class="answer">
-        <strong>Bronze:</strong> <strong>Rashid Anwar</strong> (Wrestling - <strong>Welterweight</strong>, 1934)
-    </div>
-
-    <div class="question">India's first Gold?</div>
-    <div class="answer">
-        <strong>6th CWG (1962):</strong> <strong>Sitaram Babaji Patil</strong> (<strong>440 yards, Athletics</strong>)
-    </div>
-
-    <div class="question">India's first Silver?</div>
-    <div class="answer">
-        <strong>6th CWG (1962):</strong> <strong>Lakshmikant Pandey</strong> (Boxing - <strong>Bantamweight</strong>)
-    </div>
-
-    <div class="question">India's best performance?</div>
-    <div class="answer">
-        <strong>2002 Manchester: 11 Gold medals</strong>
-    </div>
-
-    <div class="question">Total India medals? ⭐ UPDATED</div>
-    <div class="answer">
-        <strong>271 medals:</strong> <span class="medal-gold">102 Gold</span>, <span class="medal-silver">81 Silver</span>, <span class="medal-bronze">88 Bronze</span>
+<div class="event">
+    <h2>🎾 APRIL: 58th World Team Table Tennis Championships</h2>
+    <div class="dates">📅 April 28 to May 10, 2026</div>
+    <div class="host">Host: England (London)</div>
+    <div class="stats">
+        <div class="stat-item">64 Men's Teams, 64 Women's Teams</div>
+        <div class="stat-item">🥇 Most Golds: China(162), Hungary(68), Japan(49)</div>
+        <div class="stat-item">First Edition: 1926 - England (London)</div>
     </div>
 </div>
 
-<div class="section">
-    <h2>🏅 INDIAN STARS & RECORDS</h2>
-    
-    <div class="question">Most Golds by Indian (single Games)?</div>
-    <div class="answer">
-        <strong>Samaresh Jung (Shooting):</strong> <strong>5 Gold medals</strong> (Melbourne 2006)
-    </div>
-
-    <div class="question">India's team Gold (Hockey)?</div>
-    <div class="answer">
-        <strong>3-2 vs Pakistan</strong> (Manchester 2002)
-    </div>
-
-    <div class="question">First Badminton Gold (Men)?</div>
-    <div class="answer">
-        <strong>Gaurav Prakash Padukone</strong> (1978 Edmonton) - <strong>Father of Deepika Padukone</strong>
-    </div>
-
-    <div class="question">First Women's Badminton medal? ⭐ CLARIFIED</div>
-    <div class="answer">
-        <strong>24-year-old player</strong> won <strong>Bronze medals</strong> in <strong>1986 Edinburgh</strong> + <strong>2002 Manchester</strong>
-    </div>
-
-    <div class="question">India's best Shooting performance?</div>
-    <div class="answer">
-        <strong>2006 Melbourne: 18 medals</strong> (<span class="medal-gold">16 Gold</span>, <span class="medal-silver">7 Silver</span>, <span class="medal-bronze">4 Bronze</span>)
-    </div>
-
-    <div class="question">Weightlifting record?</div>
-    <div class="answer">
-        <strong>1990: 24 medals</strong> (<span class="medal-gold">12 Gold</span>, <span class="medal-silver">7 Silver</span>, <span class="medal-bronze">5 Bronze</span>)
+<div class="event">
+    <h2>⚽ JUNE: 23rd FIFA World Cup (Football)</h2>
+    <div class="dates">📅 June 11 to July 19, 2026</div>
+    <div class="host">Hosts: USA, Canada, Mexico (3 countries)</div>
+    <div class="stats">
+        <div class="stat-item">48 Teams (FIRST TIME), 104 Matches</div>
+        <div class="stat-item">16 Cities: USA(11), Mexico(3), Canada(2)</div>
+        <div class="stat-item">💰 Champion: $50M, Runner-up: $33M, 3rd: $29M</div>
+        <div class="stat-item">Total Prize Money: $655 Million</div>
+        <div class="stat-item">🏆 Current Champs: Argentina (3rd title)</div>
+        <div class="stat-item">👑 Most Titles: Brazil(5), Germany(4), Italy(4)</div>
+        <div class="stat-item">Only All Cups: Brazil</div>
+        <div class="stat-item">🥅 Most Goals: Miroslav Klose(16)-Germany</div>
+        <div class="stat-item">⚽ Most Matches: Messi(26)-Argentina</div>
+        <div class="stat-item">👑 Most WC Wins: Pele(3)-Brazil</div>
+        <div class="stat-item">First: 1930 Uruguay (13 teams)</div>
     </div>
 </div>
 
-<div class="section">
-    <h2>📜 NAME EVOLUTION & HOSTS</h2>
-    
-    <div class="question">Original name (1930-1950)?</div>
-    <div class="answer">
-        "<strong>British Empire Games</strong>" (Games 1-4)
-    </div>
-
-    <div class="question">1954-1966 name?</div>
-    <div class="answer">
-        "<strong>British Empire & Commonwealth Games</strong>" (Games 5-8)
-    </div>
-
-    <div class="question">1970-1974 name?</div>
-    <div class="answer">
-        "<strong>British Commonwealth Games</strong>" (Games 9-10)
-    </div>
-
-    <div class="question">First "Commonwealth Games" name?</div>
-    <div class="answer">
-        <strong>1978 Edmonton, Canada</strong> (<strong>11th Games</strong>)
-    </div>
-
-    <div class="question">Most hosted country?</div>
-    <div class="answer">
-        <strong>New Zealand & Australia: 4 times each</strong><br>
-        <strong>England (3), Scotland (2)</strong>
-    </div>
-
-    <div class="question">Total countries since 1930? ⭐ CORRECTED</div>
-    <div class="answer">
-        <strong>66+ countries</strong> participated historically across all editions
+<div class="event india-highlight">
+    <h2>🥇 23rd Commonwealth Games</h2>
+    <div class="dates">📅 July 23 to August 2, 2026</div>
+    <div class="host">Host: Glasgow, Scotland</div>
+    <div class="stats">
+        <div class="stat-item">74 Countries, 3000+ Athletes</div>
+        <div class="stat-item">10 Sports, 215 Events</div>
+        <div class="stat-item">No: Hockey, Badminton, Table Tennis, Wrestling, Squash, Triathlon</div>
+        <div class="stat-item">7 Venues</div>
+        <div class="stat-item">First Games: 1930 Hamilton(Canada)</div>
+        <div class="stat-item">🥇 All-time: Australia(1003), England(773), Canada(510)</div>
+        <div class="stat-item">🇮🇳 INDIA 4th: 203 Gold Medals</div>
     </div>
 </div>
 
-<div class="nav" style="margin-top: 40px;">
-    <a href="index.html">🏆 BACK TO 2026 SCHEDULE</a>
+<div class="event india-highlight">
+    <h2>🏑 AUGUST: Men's FIH Hockey World Cup</h2>
+    <div class="dates">📅 August 14 to 30, 2026</div>
+    <div class="host">Hosts: Belgium, Netherlands</div>
+    <div class="stats">
+        <div class="stat-item">16 Teams, 2 Host Cities</div>
+        <div class="stat-item">🇮🇳 India Record: Champs(1975), 2nd(1973), 3rd(1971)</div>
+        <div class="stat-item">👑 Most Wins: Pakistan(4)</div>
+        <div class="stat-item">🏆 Current: Germany(2023, India host)</div>
+    </div>
 </div>
 
-<footer style="text-align: center; margin-top: 60px; padding: 30px; background: #f8f9fa; border-radius: 15px; color: #666; font-size: 14px;">
-    <p><strong>📚 Compiled by Pradip Trivedi</strong></p>
-    <p><strong>A-403 Shantiniketan, Gurukul Road, Memnagar, Ahmedabad-380052</strong></p>
-    <p><small>📞 09328122847 | 📅 Updated: January 2026</small></p>
-</footer>
+<div class="event india-highlight">
+    <h2>🏸 AUGUST: 30th BWF World Championships (Badminton)</h2>
+    <div class="dates">📅 August 17 to 23, 2026</div>
+    <div class="host">Host: India (New Delhi)</div>
+    <div class="stats">
+        <div class="stat-item">🏟 Indira Gandhi Arena</div>
+        <div class="stat-item">First: 1977 Malmo(Sweden)</div>
+        <div class="stat-item">🥇 Most Golds: China(72), Indonesia(23), South Korea(14)</div>
+        <div class="stat-item">🇮🇳 India 10th: 1G+4S+10B = 15 Medals</div>
+        <div class="stat-item">🌟 PV Sindhu: 1 Gold, 2 Silver, 2 Bronze</div>
+    </div>
+</div>
+
+<div class="event india-highlight">
+    <h2>🥋 SEPTEMBER: 20th Asian Games</h2>
+    <div class="dates">📅 September 19 to October 4, 2026</div>
+    <div class="host">Host: Nagoya, Japan</div>
+    <div class="stats">
+        <div class="stat-item">46 Countries, 42 Sports, 61 Disciplines, 460 Events</div>
+        <div class="stat-item">Budget: $927 Million</div>
+        <div class="stat-item">First: 1951 New Delhi (India 2nd-15 Golds)</div>
+        <div class="stat-item">🥇 All-time: China(1674), Japan(1084), South Korea(787)</div>
+        <div class="stat-item">🇮🇳 India 5th: 183G+239S+357B = 779 Total</div>
+        <div class="stat-item">🔥 India Best: 28 Golds (Hangzhou 2022)</div>
+        <div class="stat-item">🥅 Kabaddi: 11 Consecutive Golds (1990-)</div>
+        <div class="stat-item">👑 Individual: Leander Paes(5), PT Usha(4), Jashpal Rana(4), Milkha Singh(4)</div>
+        <div class="stat-item">🏃 India Sports: Athletics(85), Shooting(16), Kabaddi(11), Wrestling(11)</div>
+    </div>
+</div>
 
 </body>
 </html>
