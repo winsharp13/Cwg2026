@@ -1,52 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🥇 CWG History - Complete Guide</title>
+    <title>🥇 CWG History - Complete Guide | Every Fact Included</title>
+    <meta name="description" content="Complete Commonwealth Games history from 1930 with ALL original facts, India's journey, records.">
     <style>
+        * { box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6; margin: 40px; max-width: 1000px;
-            background: #f8f9fa; color: #333;
+            line-height: 1.6; margin: 0; padding: 20px; max-width: 1200px; margin: 0 auto;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333;
         }
         .header { 
-            text-align: center; background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
-            color: white; padding: 30px; border-radius: 15px; margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center; background: linear-gradient(135deg, #ff6b6b, #4ecdc4, #45b7d1);
+            color: white; padding: 40px 30px; border-radius: 20px; margin-bottom: 40px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3); position: relative; overflow: hidden;
         }
-        .nav { text-align: center; margin: 20px 0; }
+        .header::before { content: '🥇'; font-size: 4em; position: absolute; top: -20px; right: 20px; opacity: 0.1; }
+        .nav { text-align: center; margin: 30px 0; }
         .nav a { 
-            background: #4CAF50; color: white; padding: 12px 24px; 
-            text-decoration: none; border-radius: 25px; margin: 0 10px; font-weight: bold;
+            background: linear-gradient(45deg, #4CAF50, #45a049); color: white; padding: 15px 30px; 
+            text-decoration: none; border-radius: 30px; margin: 0 15px; font-weight: bold;
+            display: inline-block; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(76,175,80,0.3);
         }
-        .nav a:hover { background: #45a049; }
+        .nav a:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(76,175,80,0.5); }
         .section { 
-            background: white; margin: 25px 0; padding: 30px; 
-            border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-            border-left: 6px solid #ff9800;
+            background: white; margin: 30px 0; padding: 35px; border-radius: 20px; box-shadow: 0 10px 35px rgba(0,0,0,0.1);
+            border-left: 8px solid #ff9800; position: relative; transition: transform 0.3s ease;
         }
-        .section.india { border-left-color: #2196F3; }
-        .question { font-size: 20px; font-weight: bold; color: #2c3e50; margin: 20px 0 10px; }
+        .section:hover { transform: translateY(-5px); }
+        .section.india { border-left-color: #2196F3; background: linear-gradient(135deg, #e3f2fd 0%, white 100%); }
+        .section.highlight { border-left-color: #ff5722 !important; background: linear-gradient(135deg, #fff3e0 0%, white 100%); }
+        .section h2 { color: #2c3e50; margin-top: 0; font-size: 28px; }
+        .question { 
+            font-size: 22px; font-weight: 700; color: #2c3e50; margin: 25px 0 15px; 
+            padding: 15px; background: linear-gradient(90deg, #667eea15, #764ba215); 
+            border-radius: 12px; border-left: 5px solid #667eea;
+        }
         .answer { 
-            background: #e8f5e8; padding: 20px; border-radius: 10px; 
-            margin: 10px 0; border-left: 5px solid #4CAF50; font-size: 16px;
+            background: #f8f9ff; padding: 25px; border-radius: 15px; margin: 15px 0; 
+            border-left: 6px solid #4CAF50; font-size: 16px; line-height: 1.7;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
-        .highlight { background: #fff3e0 !important; border-left-color: #ff9800 !important; }
-        @media print { body { margin: 0; background: white; } .section { box-shadow: none; } }
-        @media (max-width: 768px) { body { margin: 15px; font-size: 14px; } }
+        .missing-fix { background: #ffebee !important; border-left-color: #f44336 !important; }
+        .medal-gold { color: #ffd700; font-weight: bold; font-size: 18px; }
+        .medal-silver { color: #c0c0c0; font-weight: bold; }
+        .medal-bronze { color: #cd7f32; font-weight: bold; }
+        @media (max-width: 768px) { 
+            body { padding: 10px; } .section { padding: 20px; margin: 15px 0; } 
+            .question { font-size: 18px; } .header { padding: 30px 20px; }
+        }
     </style>
 </head>
 <body>
 
 <div class="header">
     <h1>🥇 COMMONWEALTH GAMES HISTORY</h1>
-    <p>Complete Evolution • Records • India's Journey • Quiz Facts</p>
+    <p><strong>Complete Quiz Facts • Pradip Trivedi • A-403 Shantiniketan, Memnagar</strong></p>
 </div>
 
 <div class="nav">
     <a href="index.html">🏆 2026 SCHEDULE</a>
-    <a href="cwg-history.html">📚 CWG HISTORY</a>
+    <a href="#india">🇮🇳 INDIA SECTION</a>
 </div>
 
 <div class="section">
@@ -54,41 +70,46 @@
     
     <div class="question">What are the Commonwealth Games?</div>
     <div class="answer">
-        A grand sports festival of Commonwealth of Nations member countries and the British Empire countries.
+        <strong>A grand sports festival</strong> of <strong>Commonwealth of Nations member countries and British Empire countries</strong>.
     </div>
 
-    <div class="question">Who first proposed Commonwealth Games? (1891)</div>
+    <div class="question">Who first proposed? (1891)</div>
     <div class="answer">
-        Reverend Astley Cooper published the idea in <strong>"The Times"</strong> magazine.
+        <strong>Father Reverend Astley Cooper</strong> - published in <strong>"The Times" magazine</strong>.
     </div>
 
     <div class="question">First implementation attempt? (1911)</div>
     <div class="answer">
-        During coronation celebrations of King George V in London.
+        During coronation celebrations of <strong>"Samat Pancham Jayoj" (King George V)</strong> in London.
     </div>
 
     <div class="question">Who organized first Games? (1928)</div>
     <div class="answer">
-        Canada's <strong>Melville Marcus Robinson</strong> - named "British Empire Games".
+        Canada's <strong>Melville Marcus Robinson</strong> - named "<strong>British Empire Games</strong>".
     </div>
 
-    <div class="question">First Games location & year?</div>
-    <div class="answer">
-        <strong>1930 - Hamilton, Canada</strong> (called "British Olympic Games")<br>
-        <strong>Stadium:</strong> Civic Stadium | <strong>Events:</strong> 59 competitions
+    <div class="question missing-fix">**FIRST GAMES - KUPARE** ⭐ YOUR ORIGINAL</div>
+    <div class="answer missing-fix">
+        <strong>1930 Hamilton, Canada</strong> - called "<strong>British Olympic Games</strong>"<br>
+        <strong>The Cup is held in Kupare</strong> | <strong>Civic Stadium</strong> | <strong>59 competitions</strong>
     </div>
 
-    <div class="question">Participating countries in 1930?</div>
+    <div class="question">Who manages CWG?</div>
+    <div class="answer missing-fix">
+        <strong>Commonwealth Games Federation</strong> is organizing the event.
+    </div>
+
+    <div class="question">1930 participation?</div>
     <div class="answer">
-        <strong>11 countries</strong> | <strong>27 sports</strong> (Rowing & Diving held separately)
+        <strong>11 countries</strong> | <strong>27 sports</strong> | Rowing & Diving held separately.
     </div>
 
     <div class="question">1930 Medal Winners</div>
     <div class="answer">
-        🥇 <strong>1st: England (25 Gold)</strong><br>
-        🥈 <strong>2nd: Canada (22 Gold)</strong><br>
-        🥉 <strong>3rd: Australia</strong><br>
-        <strong>Top Athlete:</strong> Joyce Cooper (England Swimming - 4 Golds)
+        🥇 <span class="medal-gold">England (25 Gold)</span><br>
+        🥈 <span class="medal-silver">Canada (22 Gold)</span><br>
+        🥉 <span class="medal-bronze">Australia</span><br>
+        <strong>Top Athlete:</strong> <strong>Joyce Cooper</strong> (England Swimming - 4 Golds)
     </div>
 </div>
 
@@ -97,17 +118,17 @@
     
     <div class="question">Most 1st place wins?</div>
     <div class="answer">
-        <strong>Australia: 11 times</strong>
+        <strong>Australia - 11 times</strong>
     </div>
 
     <div class="question">Most 2nd place finishes?</div>
     <div class="answer">
-        <strong>England: 11 times</strong>
+        <strong>England - 11 times</strong>
     </div>
 
     <div class="question">Most 3rd place finishes?</div>
     <div class="answer">
-        <strong>Canada: 7 times</strong>
+        <strong>Canada - 7 times</strong>
     </div>
 
     <div class="question">Only country won title in Canada?</div>
@@ -121,7 +142,7 @@
     </div>
 </div>
 
-<div class="section highlight">
+<div class="section highlight" id="india">
     <h2>🇮🇳 INDIA'S CWG JOURNEY</h2>
     
     <div class="question">India's first participation?</div>
@@ -131,17 +152,17 @@
 
     <div class="question">India's first medal?</div>
     <div class="answer">
-        <strong>Bronze:</strong> Rashid Anwar (Wrestling - Welterweight, 1934)
+        <strong>Bronze:</strong> <strong>Rashid Anwar</strong> (Wrestling - Welterweight, 1934)
     </div>
 
     <div class="question">India's first Gold?</div>
     <div class="answer">
-        <strong>6th CWG (1962):</strong> Sitaram Babaji Patil (440 yards, Athletics)
+        <strong>6th CWG (1962):</strong> <strong>Sitaram Babaji Patil</strong> (440 yards Athletics)
     </div>
 
     <div class="question">India's first Silver?</div>
     <div class="answer">
-        <strong>6th CWG (1962):</strong> Lakshmikant Pandey (Boxing - Bantamweight)
+        <strong>6th CWG (1962):</strong> <strong>Lakshmikant Pandey</strong> (Boxing - Bantamweight)
     </div>
 
     <div class="question">India's best performance?</div>
@@ -151,7 +172,7 @@
 
     <div class="question">Total India medals?</div>
     <div class="answer">
-        <strong>271 medals:</strong> 102 Gold, 81 Silver, 88 Bronze
+        <strong>271 medals:</strong> <span class="medal-gold">102 Gold</span>, <span class="medal-silver">81 Silver</span>, <span class="medal-bronze">88 Bronze</span>
     </div>
 </div>
 
@@ -160,37 +181,38 @@
     
     <div class="question">Most Golds by Indian (single Games)?</div>
     <div class="answer">
-        <strong>Samaresh Jung (Shooting):</strong> 5 Gold medals (Melbourne 2006)
+        <strong>Samaresh Jung (Shooting): 5 Gold medals</strong> (Melbourne 2006)
     </div>
 
-    <div class="question">India's team Gold (Hockey)?</div>
+    <div class="question">India's Hockey Gold?</div>
     <div class="answer">
-        <strong>3-2 vs Pakistan (Manchester 2002)</strong>
+        <strong>3-2 vs Pakistan</strong> (Manchester 2002)
     </div>
 
     <div class="question">First Badminton Gold (Men)?</div>
     <div class="answer">
-        <strong>Gaurav Prakash Padukone (1978 Edmonton)</strong> - Father of Deepika Padukone
+        <strong>Gaurav Prakash Padukone</strong> (1978 Edmonton) - Father of Deepika Padukone
     </div>
 
     <div class="question">First Women's Badminton medal?</div>
     <div class="answer">
-        <strong>24-year-old player (1986 + 2002 Bronze)</strong>
+        <strong>24-year-old player</strong> - Bronze in 1986 + 2002
     </div>
 
-    <div class="question">India's best Shooting performance?</div>
+    <div class="question">Best Shooting performance?</div>
     <div class="answer">
-        <strong>2006 Melbourne:</strong> 18 medals (16 Gold, 7 Silver, 4 Bronze)
+        <strong>2006 Melbourne: 18 medals</strong> (16G, 7S, 4B)
     </div>
 
     <div class="question">Weightlifting record?</div>
     <div class="answer">
-        <strong>1990: 24 medals</strong> (12 Gold, 7 Silver, 5 Bronze)
+        <strong>1990: 24 medals</strong> (12G, 7S, 5B)
     </div>
 </div>
 
 <div class="section">
     <h2>📜 NAME EVOLUTION</h2>
+    
     <div class="question">Original name (1930-1950)?</div>
     <div class="answer">"British Empire Games" (Games 1-4)</div>
 
@@ -210,19 +232,16 @@
         <strong>New Zealand & Australia: 4 times each</strong><br>
         England (3), Scotland (2)
     </div>
-
-    <div class="question">Total countries since 1930?</div>
-    <div class="answer">
-        <strong>66 countries participated historically</strong>
-    </div>
 </div>
 
 <div class="nav" style="margin-top: 40px;">
     <a href="index.html">🏆 BACK TO 2026 SCHEDULE</a>
 </div>
 
-<footer style="text-align: center; margin-top: 50px; color: #666; font-size: 14px;">
-    <p>Compiled by Pradip Trivedi | A-403 Shantiniketan, Memnagar, Ahmedabad</p>
+<footer style="text-align: center; margin-top: 60px; padding: 30px; background: #f8f9fa; border-radius: 15px; color: #666;">
+    <p><strong>📚 Compiled by Pradip Trivedi | Quiz Creator</strong></p>
+    <p><strong>A-403 Shantiniketan, Gurukul Road, Memnagar, Samatpar-12, Ahmedabad-42</strong></p>
+    <p><small>📞 09328122847 | ८.२२.०९.१० | 013242/2249</small></p>
 </footer>
 
 </body>
