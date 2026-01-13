@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📄 Original CWG Notes - English & Gujarati | As-Is Content</title>
+    <meta name="description" content="Original handwritten Commonwealth Games notes exactly as provided - English translation + Gujarati parallel text.">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7; margin: 0; padding: 20px; max-width: 1200px; margin: 0 auto;
+            background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%); color: #333;
+        }
+        .header { 
+            text-align: center; background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white; padding: 40px 30px; border-radius: 20px; margin-bottom: 40px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        .nav { text-align: center; margin: 30px 0; }
+        .nav a { 
+            background: linear-gradient(45deg, #ff6b6b, #ee5a52); color: white; padding: 15px 30px; 
+            text-decoration: none; border-radius: 30px; margin: 0 15px; font-weight: bold;
+            display: inline-block; transition: all 0.3s ease; box-shadow: 0 5px 15px rgba(255,107,107,0.4);
+        }
+        .nav a:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(255,107,107,0.6); }
+        
+        .page-section {
+            background: white; margin: 30px 0; padding: 35px; border-radius: 20px; 
+            box-shadow: 0 10px 35px rgba(0,0,0,0.1); border-left: 8px solid #4CAF50;
+            position: relative;
+        }
+        .page-section h2 { 
+            color: #2c3e50; margin-top: 0; font-size: 28px; 
+            background: linear-gradient(90deg, #4CAF50, #45a049); -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; background-clip: text;
+        }
+        .content-row {
+            display: flex; gap: 30px; margin: 25px 0;
+        }
+        .content-column {
+            flex: 1; padding: 25px; background: #f8f9fa; border-radius: 15px;
+            border-left: 6px solid #667eea; position: relative; min-height: 200px;
+        }
+        .lang-en { border-left-color: #4CAF50; }
+        .lang-gu { border-left-color: #ff9800; }
+        .content-column h3 {
+            margin-top: 0; font-size: 20px; color: #2c3e50; padding-bottom: 15px;
+            border-bottom: 3px solid; border-radius: 5px;
+        }
+        .lang-en h3 { border-bottom-color: #4CAF50; }
+        .lang-gu h3 { border-bottom-color: #ff9800; }
+        
+        .highlight-imp { 
+            background: linear-gradient(120deg, #ffd70033, #ffed4a33, #ffd70033); 
+            padding: 2px 6px; border-radius: 6px; font-weight: 700; 
+            box-shadow: 0 2px 8px rgba(255,215,0,0.3);
+        }
+        .highlight-critical { 
+            background: linear-gradient(120deg, #ff444433, #ff6b6b33, #ff444433); 
+            padding: 2px 6px; border-radius: 6px; font-weight: 800;
+            box-shadow: 0 2px 8px rgba(255,68,68,0.4); color: #d32f2f;
+        }
+        .question-style {
+            font-size: 18px; font-weight: 700; color: #e91e63; margin: 20px 0 10px;
+            padding: 12px; background: linear-gradient(90deg, #f8bbd933, #ffcdd233);
+            border-radius: 10px; border-left: 5px solid #e91e63;
+        }
+        .answer-style {
+            background: linear-gradient(135deg, #e8f5e8 0%, #f1f8e9 100%); 
+            padding: 20px; border-radius: 12px; margin: 15px 0;
+            border-left: 6px solid #4CAF50; font-size: 16px; line-height: 1.8;
+        }
+        @media (max-width: 768px) { 
+            .content-row { flex-direction: column; gap: 20px; }
+            body { padding: 10px; } .page-section { padding: 20px; margin: 15px 0; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>📄 ORIGINAL CWG NOTES</h1>
+    <p><strong>Exact Copy-Paste • English + Gujarati Parallel • All 7 Pages Preserved</strong></p>
+    <small>Pradip Trivedi | A-403 Shantiniketan, Memnagar, Ahmedabad</small>
+</div>
+
+<div class="nav">
+    <a href="cwg-history.html">🏆 MAIN HISTORY PAGE</a>
+    <a href="index.html">🏅 2026 SCHEDULE</a>
+</div>
+
+<div class="page-section">
+    <h2>📃 PAGE 1 - ORIGINS</h2>
+    <div class="content-row">
+        <div class="content-column lang-en">
+            <h3>🇬🇧 ENGLISH</h3>
+            <div class="question-style">What are the Commonwealth Games?</div>
+            <div class="answer-style">
+                ← <span class="highlight-imp">A grand sports festival</span> of the 
+                <span class="highlight-imp">Commonwealth of Nations member countries</span> and the 
+                <span class="highlight-imp">British Empire</span>, which is governed by the 
+                <span class="highlight-critical">British Empire</span>.
+            </div>
+            
+            <div class="question-style">Who first came up with the idea? <span class="highlight-imp">1891</span></div>
+            <div class="answer-style">
+                This idea came to <span class="highlight-imp">Father Reverend Astley Cooper</span>. 
+                The idea was published in a magazine called "<span class="highlight-imp">The Times</span>".
+            </div>
+        </div>
+        
+        <div class="content-column lang-gu">
+            <h3>🇮🇳 GUJARATI</h3>
+            <div class="question-style">કોમનવેલ્થ ગેમ્સ શું છે?</div>
+            ← <span class="highlight-imp">કોમનવેલ્થ ઓફ નેશન્સ</span> અને <span class="highlight-imp">બ્રિટિશ એમ્પાયર</span> 
+            ના સભ્ય દેશોનો <span class="highlight-imp">ગ્રાન્ડ સ્પોર્ટ્સ ફેસ્ટિવલ</span>.
+        </div>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>📃 PAGE 2 - FIRST GAMES <span class="highlight-critical">KUPARE</span></h2>
+    <div class="content-row">
+        <div class="content-column lang-en">
+            <h3>🇬🇧 ENGLISH</h3>
+            <div class="question-style">First Games location? <span class="highlight-imp">1930</span></div>
+            <div class="answer-style">
+                The first <span class="highlight-imp">Commonwealth Games</span> were held in 
+                <span class="highlight-imp">1930, Hamilton, Canada</span>, under the name 
+                "<span class="highlight-imp">British Olympic Games</span>".
+            </div>
+            
+            <div class="question-style">Who manages? <span class="highlight-critical">KUPARE</span></div>
+            <div class="answer-style">
+                <span class="highlight-critical">The Cup is held in Kupare</span>. 
+                <span class="highlight-imp">Commonwealth Games Federation</span> is organizing the event.
+            </div>
+        </div>
+        
+        <div class="content-column lang-gu">
+            <h3>🇮🇳 GUJARATI</h3>
+            <div class="question-style">પ્રથમ રમત ક્યાં? <span class="highlight-imp">KUPARE</span></div>
+            <div class="answer-style">
+                <span class="highlight-critical">કુપારેમાં કપ યોજાય છે</span> | 
+                <span class="highlight-imp">હેમિલ્ટન, કેનેડા 1930</span>.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>📃 PAGE 3 - RECORDS</h2>
+    <div class="content-row">
+        <div class="content-column lang-en">
+            <h3>🇬🇧 ENGLISH</h3>
+            <div class="question-style">Most 1st place wins?</div>
+            <div class="answer-style">
+                <span class="highlight-imp">Australia - 11 times</span> in first place.
+            </div>
+            <div class="question-style">Most 2nd place?</div>
+            <div class="answer-style">
+                <span class="highlight-imp">England - 11 times</span>.
+            </div>
+        </div>
+        
+        <div class="content-column lang-gu">
+            <h3>🇮🇳 GUJARATI</h3>
+            <div class="question-style">સૌથી વધુ પ્રથમ થયા?</div>
+            <div class="answer-style">
+                <span class="highlight-imp">ઓસ્ટ્રેલિયા - 11 વખત</span>.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>📃 PAGE 4 - INDIA'S JOURNEY</h2>
+    <div class="content-row">
+        <div class="content-column lang-en">
+            <h3>🇬🇧 ENGLISH</h3>
+            <div class="question-style">India's first participation?</div>
+            <div class="answer-style">
+                <span class="highlight-imp">1934 London Games</span> - 
+                <span class="highlight-imp">Rashid Anwar</span> (Wrestling Bronze).
+            </div>
+            <div class="question-style">India's first Gold?</div>
+            <div class="answer-style">
+                <span class="highlight-imp">6th CWG (1962)</span> - 
+                <span class="highlight-imp">Sitaram Babaji Patil</span> (440 yards).
+            </div>
+        </div>
+        
+        <div class="content-column lang-gu">
+            <h3>🇮🇳 GUJARATI</h3>
+            <div class="question-style">ભારતની પ્રથમ ભાગીદારી?</div>
+            <div class="answer-style">
+                <span class="highlight-imp">1934 લંડન</span> - 
+                <span class="highlight-imp">રશીદ અન્વર કાંસ્ય</span>.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>📃 PAGE 5-7 - STARS & NAME EVOLUTION</h2>
+    <div class="content-row">
+        <div class="content-column lang-en">
+            <h3>🇬🇧 ENGLISH</h3>
+            <div class="question-style">Indian Stars:</div>
+            <div class="answer-style">
+                <span class="highlight-imp">Samaresh Jung</span> - 5 Golds (2006)<br>
+                <span class="highlight-imp">Gaurav Prakash Padukone</span> - Badminton Gold (1978)<br>
+                <span class="highlight-imp">Hockey: 3-2 vs Pakistan</span> (2002)
+            </div>
+            <div class="question-style">Name Evolution:</div>
+            <div class="answer-style">
+                1930-50: <span class="highlight-imp">"British Empire Games"</span><br>
+                1978: First <span class="highlight-imp">"Commonwealth Games"</span>
+            </div>
+        </div>
+        
+        <div class="content-column lang-gu">
+            <h3>🇮🇳 GUJARATI</h3>
+            <div class="question-style">ભારતીય તારા:</div>
+            <div class="answer-style">
+                <span class="highlight-imp">સમરેશ જંગ</span> - 5 સોનેરી (2006)<br>
+                <span class="highlight-imp">ગૌરવ પદુકોને</span> - બેડમિન્ટન (1978).
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nav" style="margin-top: 40px;">
+    <a href="cwg-history.html">🏆 BACK TO MAIN HISTORY</a>
+</div>
+
+<footer style="text-align: center; margin-top: 60px; padding: 30px; background: #f8f9fa; border-radius: 15px; color: #666;">
+    <p><strong>📚 Vacha Consultancy </strong></p>
+</footer>
+
+</body>
+</html>
