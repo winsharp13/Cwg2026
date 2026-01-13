@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📄 Original CWG Notes - English & Gujarati | As-Is Content</title>
-    <meta name="description" content="Original handwritten Commonwealth Games notes exactly as provided - English translation + Gujarati parallel text.">
+    <title>📄 Original CWG Notes - English | ગુજરાતી Parallel</title>
+    <meta name="description" content="Original handwritten Commonwealth Games notes - English left, Gujarati right, paragraph-wise exact copy.">
     <style>
         * { box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.7; margin: 0; padding: 20px; max-width: 1200px; margin: 0 auto;
+            line-height: 1.8; margin: 0; padding: 20px; max-width: 1400px; margin: 0 auto;
             background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%); color: #333;
         }
         .header { 
-            text-align: center; background: linear-gradient(135deg, #667eea, #764ba2);
+            text-align: center; background: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
             color: white; padding: 40px 30px; border-radius: 20px; margin-bottom: 40px;
             box-shadow: 0 15px 40px rgba(0,0,0,0.3);
         }
@@ -28,50 +28,51 @@
         .page-section {
             background: white; margin: 30px 0; padding: 35px; border-radius: 20px; 
             box-shadow: 0 10px 35px rgba(0,0,0,0.1); border-left: 8px solid #4CAF50;
-            position: relative;
         }
         .page-section h2 { 
-            color: #2c3e50; margin-top: 0; font-size: 28px; 
+            color: #2c3e50; margin-top: 0; font-size: 28px; text-align: center;
             background: linear-gradient(90deg, #4CAF50, #45a049); -webkit-background-clip: text;
             -webkit-text-fill-color: transparent; background-clip: text;
         }
+        
         .content-row {
-            display: flex; gap: 30px; margin: 25px 0;
+            display: flex; gap: 40px; margin: 30px 0;
         }
         .content-column {
-            flex: 1; padding: 25px; background: #f8f9fa; border-radius: 15px;
-            border-left: 6px solid #667eea; position: relative; min-height: 200px;
+            flex: 1; padding: 30px; background: #f8f9fa; border-radius: 15px;
+            min-height: 450px; position: relative; overflow-y: auto;
         }
-        .lang-en { border-left-color: #4CAF50; }
-        .lang-gu { border-left-color: #ff9800; }
-        .content-column h3 {
-            margin-top: 0; font-size: 20px; color: #2c3e50; padding-bottom: 15px;
-            border-bottom: 3px solid; border-radius: 5px;
+        .lang-en { border: 3px solid #4CAF50; border-left: 8px solid #4CAF50; }
+        .lang-gu { border: 3px solid #ff9800; border-left: 8px solid #ff9800; }
+        
+        .lang-en h3, .lang-gu h3 {
+            margin: -30px -30px 20px -30px; padding: 15px 30px; font-size: 22px; font-weight: bold;
+            text-align: center; position: relative;
         }
-        .lang-en h3 { border-bottom-color: #4CAF50; }
-        .lang-gu h3 { border-bottom-color: #ff9800; }
+        .lang-en h3 { 
+            background: linear-gradient(135deg, #4CAF50, #45a049); color: white;
+        }
+        .lang-gu h3 { 
+            background: linear-gradient(135deg, #ff9800, #f57c00); color: white;
+        }
         
         .highlight-imp { 
-            background: linear-gradient(120deg, #ffd70033, #ffed4a33, #ffd70033); 
-            padding: 2px 6px; border-radius: 6px; font-weight: 700; 
-            box-shadow: 0 2px 8px rgba(255,215,0,0.3);
+            background: linear-gradient(120deg, #ffd70040, #ffed4a40, #ffd70040); 
+            padding: 2px 8px; border-radius: 8px; font-weight: 700; 
+            box-shadow: 0 2px 8px rgba(255,215,0,0.4); display: inline-block; margin: 2px;
         }
         .highlight-critical { 
-            background: linear-gradient(120deg, #ff444433, #ff6b6b33, #ff444433); 
-            padding: 2px 6px; border-radius: 6px; font-weight: 800;
-            box-shadow: 0 2px 8px rgba(255,68,68,0.4); color: #d32f2f;
+            background: linear-gradient(120deg, #ff444440, #ff6b6b40, #ff444440); 
+            padding: 2px 8px; border-radius: 8px; font-weight: 800;
+            box-shadow: 0 2px 8px rgba(255,68,68,0.5); color: #d32f2f; display: inline-block; margin: 2px;
         }
-        .question-style {
-            font-size: 18px; font-weight: 700; color: #e91e63; margin: 20px 0 10px;
-            padding: 12px; background: linear-gradient(90deg, #f8bbd933, #ffcdd233);
-            border-radius: 10px; border-left: 5px solid #e91e63;
+        
+        .page-title { 
+            text-align: center; background: #e3f2fd; padding: 15px; border-radius: 10px;
+            font-weight: bold; font-size: 18px; margin-bottom: 20px; color: #1976d2;
         }
-        .answer-style {
-            background: linear-gradient(135deg, #e8f5e8 0%, #f1f8e9 100%); 
-            padding: 20px; border-radius: 12px; margin: 15px 0;
-            border-left: 6px solid #4CAF50; font-size: 16px; line-height: 1.8;
-        }
-        @media (max-width: 768px) { 
+        
+        @media (max-width: 1024px) { 
             .content-row { flex-direction: column; gap: 20px; }
             body { padding: 10px; } .page-section { padding: 20px; margin: 15px 0; }
         }
@@ -80,9 +81,9 @@
 <body>
 
 <div class="header">
-    <h1>📄 ORIGINAL CWG NOTES</h1>
-    <p><strong>Exact Copy-Paste • English + Gujarati Parallel • All 7 Pages Preserved</strong></p>
-    <small>Pradip Trivedi | A-403 Shantiniketan, Memnagar, Ahmedabad</small>
+    <h1>📄 ORIGINAL CWG HANDWRITTEN NOTES</h1>
+    <p><strong>Exact Copy-Paste • English Left | ગુજરાતી Right • Paragraph Wise</strong></p>
+    <small>Vacha Consultancy</small>
 </div>
 
 <div class="nav">
@@ -91,142 +92,84 @@
 </div>
 
 <div class="page-section">
-    <h2>📃 PAGE 1 - ORIGINS</h2>
+    <h2>📃 PAGE 1 - ORIGINS & FIRST GAMES</h2>
+    <div class="page-title">Page 1. Common Wealth Games By Vacha Consultancy</div>
+    
     <div class="content-row">
         <div class="content-column lang-en">
-            <h3>🇬🇧 ENGLISH</h3>
-            <div class="question-style">What are the Commonwealth Games?</div>
-            <div class="answer-style">
-                ← <span class="highlight-imp">A grand sports festival</span> of the 
-                <span class="highlight-imp">Commonwealth of Nations member countries</span> and the 
-                <span class="highlight-imp">British Empire</span>, which is governed by the 
-                <span class="highlight-critical">British Empire</span>.
-            </div>
+            <h3>🇬🇧 ENGLISH ORIGINAL</h3>
+            <p>What are the Commonwealth Games? ← <span class="highlight-imp">A grand sports festival</span> of the <span class="highlight-imp">Commonwealth of Nations member countries</span> and the <span class="highlight-imp">British Empire</span>, which is governed by the <span class="highlight-critical">British Empire</span>.</p>
             
-            <div class="question-style">Who first came up with the idea? <span class="highlight-imp">1891</span></div>
-            <div class="answer-style">
-                This idea came to <span class="highlight-imp">Father Reverend Astley Cooper</span>. 
-                The idea was published in a magazine called "<span class="highlight-imp">The Times</span>".
-            </div>
-        </div>
-        
-        <div class="content-column lang-gu">
-            <h3>🇮🇳 GUJARATI</h3>
-            <div class="question-style">કોમનવેલ્થ ગેમ્સ શું છે?</div>
-            ← <span class="highlight-imp">કોમનવેલ્થ ઓફ નેશન્સ</span> અને <span class="highlight-imp">બ્રિટિશ એમ્પાયર</span> 
-            ના સભ્ય દેશોનો <span class="highlight-imp">ગ્રાન્ડ સ્પોર્ટ્સ ફેસ્ટિવલ</span>.
-        </div>
-    </div>
-</div>
-
-<div class="page-section">
-    <h2>📃 PAGE 2 - FIRST GAMES <span class="highlight-critical">KUPARE</span></h2>
-    <div class="content-row">
-        <div class="content-column lang-en">
-            <h3>🇬🇧 ENGLISH</h3>
-            <div class="question-style">First Games location? <span class="highlight-imp">1930</span></div>
-            <div class="answer-style">
-                The first <span class="highlight-imp">Commonwealth Games</span> were held in 
-                <span class="highlight-imp">1930, Hamilton, Canada</span>, under the name 
-                "<span class="highlight-imp">British Olympic Games</span>".
-            </div>
+            <p>Who first came up with the idea of ​​organizing the <span class="highlight-imp">Common Health Games</span>? This idea came to <span class="highlight-imp">Father Reverend Astley Cooper</span> in <span class="highlight-imp">1891</span>. The idea was published in a magazine called "<span class="highlight-imp">The Times</span>".</p>
             
-            <div class="question-style">Who manages? <span class="highlight-critical">KUPARE</span></div>
-            <div class="answer-style">
-                <span class="highlight-critical">The Cup is held in Kupare</span>. 
-                <span class="highlight-imp">Commonwealth Games Federation</span> is organizing the event.
-            </div>
+            <p>When was the idea of ​​the Commonwealth Games first implemented? ← He tried to implement this idea during the coronation celebrations of "<span class="highlight-imp">Samat Pancham Jayoj</span>" held in <span class="highlight-imp">London in 1911</span>.</p>
+            
+            <p>Who invited to hold the first Commonwealth Games? In <span class="highlight-imp">1928</span>, <span class="highlight-imp">Canada's Melville Marcus Robinson</span> made a special request to hold the Commonwealth Games under the name "<span class="highlight-imp">British Empire Games</span>".</p>
+            
+            <p>The first Commonwealth Games were held in <span class="highlight-imp">1930</span>, under the name "<span class="highlight-imp">British Olympic Games</span>". They were held in <span class="highlight-imp">Hamilton, Canada</span>. (Who manages the Commonwealth Games? <span class="highlight-critical">The Cup is held in Kupare</span>.) <span class="highlight-imp">The Commonwealth Games Federation</span> is organizing the event. It was held in <span class="highlight-imp">1630</span>.</p>
         </div>
         
         <div class="content-column lang-gu">
-            <h3>🇮🇳 GUJARATI</h3>
-            <div class="question-style">પ્રથમ રમત ક્યાં? <span class="highlight-imp">KUPARE</span></div>
-            <div class="answer-style">
-                <span class="highlight-critical">કુપારેમાં કપ યોજાય છે</span> | 
-                <span class="highlight-imp">હેમિલ્ટન, કેનેડા 1930</span>.
-            </div>
+            <h3>🇮🇳 ગુજરાતી અનુવાદ</h3>
+            <p>કોમનવેલ્થ ગેમ્સ શું છે? ← <span class="highlight-imp">કોમનવેલ્થ ઓફ નેશન્સના સભ્ય દેશો</span> અને <span class="highlight-imp">બ્રિટિશ એમ્પાયર</span>નો <span class="highlight-imp">ગ્રાન્ડ સ્પોર્ટ્સ ફેસ્ટિવલ</span>, જે <span class="highlight-critical">બ્રિટિશ એમ્પાયર</span> દ્વારા શાસિત છે.</p>
+            
+            <p><span class="highlight-imp">કોમન હેલ્થ ગેમ્સ</span> યોજવાનો વિચાર કોણે આપ્યો? આ વિચાર <span class="highlight-imp">ફાદર રેવરેન્ડ આસ્ટલી કૂપર</span>ને <span class="highlight-imp">1891</span>માં આવ્યો. આ વિચાર "<span class="highlight-imp">ધ ટાઇમ્સ</span>" મેગેઝિનમાં પ્રકાશિત થયો.</p>
+            
+            <p>કોમનવેલ્થ ગેમ્સનો વિચાર પ્રથમ વખત ક્યારે અમલમાં આવ્યો? ← તેમણે "<span class="highlight-imp">સમત પંચમ જયોજ</span>" ના <span class="highlight-imp">લંડન 1911</span>માં યોજાયેલા રાજ્યાભિષેક સમારોહ દરમિયાન આ વિચાર અમલમાં મૂકવાનો પ્રયાસ કર્યો.</p>
+            
+            <p>પ્રથમ કોમનવેલ્થ ગેમ્સ માટે કોણે આમંત્રણ કર્યું? <span class="highlight-imp">1928</span>માં <span class="highlight-imp">કેનેડાના મેલવિલ માર્કસ રોબિન્સન</span>એ "<span class="highlight-imp">બ્રિટિશ એમ્પાયર ગેમ્સ</span>" નામે યોજવાનો ખાસ વિનંતી કરી.</p>
+            
+            <p><span class="highlight-imp">1930</span>માં પ્રથમ કોમનવેલ્થ ગેમ્સ "<span class="highlight-imp">બ્રિટિશ ઓલિમ્પિક ગેમ્સ</span>" નામે <span class="highlight-imp">હેમિલ્ટન, કેનેડા</span>માં યોજાયો. (કોમનવેલ્થ ગેમ્સ કોણ સંચાલિત કરે છે? <span class="highlight-critical">કુપારેમાં કપ યોજાય છે</span>.) <span class="highlight-imp">કોમનવેલ્થ ગેમ્સ ફેડરેશન</span> આયોજન કરી રહ્યું છે. તે <span class="highlight-imp">1630</span>માં યોજાયો હતો.</p>
         </div>
     </div>
 </div>
 
 <div class="page-section">
-    <h2>📃 PAGE 3 - RECORDS</h2>
+    <h2>📃 PAGE 2 - ALL-TIME RECORDS</h2>
+    <div class="page-title">Page 2. Prahiya Trivehi Adhikari | Ahmedabad-42 013242/2249</div>
+    
     <div class="content-row">
         <div class="content-column lang-en">
-            <h3>🇬🇧 ENGLISH</h3>
-            <div class="question-style">Most 1st place wins?</div>
-            <div class="answer-style">
-                <span class="highlight-imp">Australia - 11 times</span> in first place.
-            </div>
-            <div class="question-style">Most 2nd place?</div>
-            <div class="answer-style">
-                <span class="highlight-imp">England - 11 times</span>.
-            </div>
+            <h3>🇬🇧 ENGLISH ORIGINAL</h3>
+            <p>Who has won the first place the most times in the history of the Commonwealth Games? How many times? <span class="highlight-imp">Australia - 11 times</span> in first place. Who has been in second place? How many times? <span class="highlight-imp">England - 11 times</span> second place.</p>
+            
+            <p>Who has been in third place the most times? How many times? <span class="highlight-imp">Canada - 7 times</span> third place. Name the country that has won the only title in Canada. <span class="highlight-imp">New Zealand</span> once.</p>
+            
+            <p>How many countries have reached the top so far? <span class="highlight-imp">Six countries</span> are ranked from top to bottom. <span class="highlight-imp">South Africa, New Zealand and Wales</span> are in first place, while <span class="highlight-imp">Australia, England and Canada</span> are in second place.</p>
         </div>
         
         <div class="content-column lang-gu">
-            <h3>🇮🇳 GUJARATI</h3>
-            <div class="question-style">સૌથી વધુ પ્રથમ થયા?</div>
-            <div class="answer-style">
-                <span class="highlight-imp">ઓસ્ટ્રેલિયા - 11 વખત</span>.
-            </div>
+            <h3>🇮🇳 ગુજરાતી અનુવાદ</h3>
+            <p>કોમનવેલ્થ ગેમ્સ ઇતિહાસમાં સૌથી વધુ પ્રથમ સ્થાન કોણે જીત્યું? કેટલી વાર? <span class="highlight-imp">ઓસ્ટ્રેલિયા - 11 વાર</span> પ્રથમ સ્થાન. બીજું સ્થાન કોણે મેળવ્યું? કેટલી વાર? <span class="highlight-imp">ઇંગ્લેન્ડ - 11 વાર</span> બીજું સ્થાન.</p>
+            
+            <p>ત્રીજું સ્થાન સૌથી વધુ કોણે મેળવ્યું? કેટલી વાર? <span class="highlight-imp">કેનેડા - 7 વાર</span> ત્રીજું સ્થાન. કેનેડામાં એકમાત્ર ખિતાબ જીતનારા દેશનું નામ કહો. <span class="highlight-imp">ન્યૂઝીલેન્ડ</span> એક વાર.</p>
+            
+            <p>હવે સુધી કેટલા દેશો ટોપ પર પહોંચ્યા? <span class="highlight-imp">છગ દેશો</span> ઉપર-નીચે રેન્ક થયા. <span class="highlight-imp">દક્ષિણ આફ્રિકા, ન્યૂઝીલેન્ડ અને વેલ્સ</span> પ્રથમ સ્થાને, જ્યારે <span class="highlight-imp">ઓસ્ટ્રેલિયા, ઇંગ્લેન્ડ અને કેનેડા</span> બીજા સ્થાને.</p>
         </div>
     </div>
 </div>
 
 <div class="page-section">
-    <h2>📃 PAGE 4 - INDIA'S JOURNEY</h2>
+    <h2>📃 PAGE 3-4 - NAME EVOLUTION & 1930 DETAILS</h2>
+    <div class="page-title">Page 3-4. Pradeep Trivadi | Ahmedabad-42 | 211.29.06.10</div>
+    
     <div class="content-row">
         <div class="content-column lang-en">
-            <h3>🇬🇧 ENGLISH</h3>
-            <div class="question-style">India's first participation?</div>
-            <div class="answer-style">
-                <span class="highlight-imp">1934 London Games</span> - 
-                <span class="highlight-imp">Rashid Anwar</span> (Wrestling Bronze).
-            </div>
-            <div class="question-style">India's first Gold?</div>
-            <div class="answer-style">
-                <span class="highlight-imp">6th CWG (1962)</span> - 
-                <span class="highlight-imp">Sitaram Babaji Patil</span> (440 yards).
-            </div>
+            <h3>🇬🇧 ENGLISH ORIGINAL</h3>
+            <p>What were the previous names of the Commonwealth Games? Before the Commonwealth Games, The <span class="highlight-imp">British Empire Games</span> were held under the names of "<span class="highlight-imp">British Empire and Commonwealth Games</span>" and "<span class="highlight-imp">British Commonwealth Games</span>".</p>
+            
+            <p>The first Commonwealth Games were held in <span class="highlight-imp">Hamilton, Canada in 1930</span>. A total of <span class="highlight-imp">11 countries</span> participated. The first games included <span class="highlight-imp">27 sports</span>. First games played at <span class="highlight-imp">Civic Stadium</span>. A total of <span class="highlight-imp">59 competitions</span> held.</p>
+            
+            <p>In the first games, only two games - <span class="highlight-imp">rowing and diving</span> - were played in the region. <span class="highlight-imp">England</span> had the honour of coming first, won <span class="highlight-imp">25 gold medals</span>. Second place <span class="highlight-imp">Canada 22 gold</span>. Top athlete <span class="highlight-imp">Joyce Cooper</span> won 4 gold medals.</p>
         </div>
         
         <div class="content-column lang-gu">
-            <h3>🇮🇳 GUJARATI</h3>
-            <div class="question-style">ભારતની પ્રથમ ભાગીદારી?</div>
-            <div class="answer-style">
-                <span class="highlight-imp">1934 લંડન</span> - 
-                <span class="highlight-imp">રશીદ અન્વર કાંસ્ય</span>.
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="page-section">
-    <h2>📃 PAGE 5-7 - STARS & NAME EVOLUTION</h2>
-    <div class="content-row">
-        <div class="content-column lang-en">
-            <h3>🇬🇧 ENGLISH</h3>
-            <div class="question-style">Indian Stars:</div>
-            <div class="answer-style">
-                <span class="highlight-imp">Samaresh Jung</span> - 5 Golds (2006)<br>
-                <span class="highlight-imp">Gaurav Prakash Padukone</span> - Badminton Gold (1978)<br>
-                <span class="highlight-imp">Hockey: 3-2 vs Pakistan</span> (2002)
-            </div>
-            <div class="question-style">Name Evolution:</div>
-            <div class="answer-style">
-                1930-50: <span class="highlight-imp">"British Empire Games"</span><br>
-                1978: First <span class="highlight-imp">"Commonwealth Games"</span>
-            </div>
-        </div>
-        
-        <div class="content-column lang-gu">
-            <h3>🇮🇳 GUJARATI</h3>
-            <div class="question-style">ભારતીય તારા:</div>
-            <div class="answer-style">
-                <span class="highlight-imp">સમરેશ જંગ</span> - 5 સોનેરી (2006)<br>
-                <span class="highlight-imp">ગૌરવ પદુકોને</span> - બેડમિન્ટન (1978).
-            </div>
+            <h3>🇮🇳 ગુજરાતી અનુવાદ</h3>
+            <p>કોમનવેલ્થ ગેમ્સના અગાઉના નામો શું હતા? કોમનવેલ્થ ગેમ્સ પહેલાં <span class="highlight-imp">બ્રિટિશ એમ્પાયર ગેમ્સ</span>, "<span class="highlight-imp">બ્રિટિશ એમ્પાયર એન્ડ કોમનવેલ્થ ગેમ્સ</span>" અને "<span class="highlight-imp">બ્રિટિશ કોમનવેલ્થ ગેમ્સ</span>" નામે યોજાયા.</p>
+            
+            <p>પ્રથમ કોમનવેલ્થ ગેમ્સ <span class="highlight-imp">1930 હેમિલ્ટન, કેનેડા</span>માં યોજાયો. કુલ <span class="highlight-imp">11 દેશો</span>એ ભાગ લીધો. પ્રથમ ગેમ્સમાં <span class="highlight-imp">27 khેલ</span>. <span class="highlight-imp">સિવિક સ્ટેડિયમ</span>માં રમાયા. કુલ <span class="highlight-imp">59 પ્રતિયોગિતાઓ</span> યોજાઈ.</p>
+            
+            <p>પ્રથમ ગેમ્સમાં માત્ર બે રમતો - <span class="highlight-imp">રોવિંગ અને ડાઇવિંગ</span> - ક્ષેત્રમાં રમાઈ. <span class="highlight-imp">ઇંગ્લેન્ડ</span> પ્રથમ આવ્યું, <span class="highlight-imp">25 સોના</span> જીત્યા. બીજા સ્થાને <span class="highlight-imp">કેનેડા 22 સોના</span>. ટોચના ખેલાડી <span class="highlight-imp">જોયસ કૂપર</span>એ 4 સોના જીત્યા.</p>
         </div>
     </div>
 </div>
@@ -236,8 +179,8 @@
 </div>
 
 <footer style="text-align: center; margin-top: 60px; padding: 30px; background: #f8f9fa; border-radius: 15px; color: #666;">
-    <p><strong>📚 Vacha Consultancy </strong></p>
-</footer>
+    <p><strong>Vacha Consultancy</strong></p>
+    </footer>
 
 </body>
 </html>
