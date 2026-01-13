@@ -5,6 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sports Festivals 2026</title>
     <style>
+
+.download-btn-container {
+    position: fixed; top: 20px; right: 20px; z-index: 1000;
+}
+.download-pdf-btn {
+    background: linear-gradient(135deg, #28a745, #20c997); 
+    color: white; padding: 12px 25px; border: none; 
+    border-radius: 25px; font-weight: bold; font-size: 14px; cursor: pointer;
+    box-shadow: 0 8px 25px rgba(40,167,69,0.4); transition: all 0.3s ease;
+    display: inline-block; text-decoration: none;
+}
+.download-pdf-btn:hover {
+    transform: translateY(-3px); box-shadow: 0 12px 35px rgba(40,167,69,0.6);
+    background: linear-gradient(135deg, #20c997, #28a745);
+}
+@media print { .download-btn-container { display: none !important; } }
+@media (max-width: 768px) { 
+    .download-btn-container { top: 10px; right: 10px; }
+    .download-pdf-btn { padding: 10px 20px; font-size: 13px; }
+}
+
+        
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
@@ -79,11 +101,21 @@
 </head>
 <body>
 
+
+    
 <div class="header">
     <h1>🎉 SPORTS FESTIVALS 2026 🎉</h1>
     <p>Complete International Sports Calendar</p>
 </div>
 
+<div class="download-btn-container">
+    <a href="https://drive.google.com/file/d/14uNGXwUouDwSw1YzMY8Db0asOjEvnEcL/view?usp=drivesdk" class="download-pdf-btn" download>
+        📥 CWG Original Notes Download
+    </a>
+</div>
+
+<div class="header">
+    
    <div class="nav" style="text-align: center; margin: 20px 0; padding: 15px 0;">
     <a href="index.html" style="background: #4CAF50; color: white; padding: 12px 24px; text-decoration: none; border-radius: 25px; margin: 0 10px; font-weight: bold; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">🏆 2026 SCHEDULE</a>
     <a href="cwg-history.html" style="background: #ff9800; color: white; padding: 12px 24px; text-decoration: none; border-radius: 25px; margin: 0 10px; font-weight: bold; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">📚 CWG OVERVIEW</a>
